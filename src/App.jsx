@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Board from "./Components/Board/Board";
 import "./App.css";
-import Editable from "./Components/Editabled/Editable";
+import Editabled from "./Components/Editabled/Editabled";
 
 function App() {
   const [boards, setBoards] = useState(
@@ -138,7 +138,7 @@ function App() {
             />
           ))}
           <div className="app_boards_last">
-            <Editable
+            <Editabled
               displayClass="app_boards_add-board"
               editClass="app_boards_add-board_edit"
               placeholder="Enter Board Name"
