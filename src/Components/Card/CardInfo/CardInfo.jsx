@@ -8,7 +8,6 @@ import {
   Type,
   X,
 } from "react-feather";
-
 import Modal from "../../Modal/Modal";
 import Editabled from "../../Editabled/Editabled";
 
